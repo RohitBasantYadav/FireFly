@@ -4,9 +4,9 @@ import fireCrackerImg from "../assets/firecrackerImg.svg"
 
 const About = () => {
     return (
-        <Box w="80%" m="auto" my="50px">
-            <HStack justify="space-between" spacing={8}>
-                <Image src={borderImg} alt="border-img" />
+        <Box w="80%" m="auto" my="50px" >
+            <HStack justify="space-between" spacing={8} align="center">
+                <Image w={{ sm: "10%", md: "40%", lg: "80%" }} src={borderImg} alt="border-img" />
                 <Heading color="#F27121">About</Heading>
                 <Image src={borderImg} alt="border-img" />
             </HStack>
@@ -15,7 +15,7 @@ const About = () => {
                 <Box pt="60px">
                     <Image src={fireCrackerImg} alt="fireCracker-svg" />
                 </Box>
-                <Text w="60%" textAlign="center" fontSize="18px" lineHeight="30px" letterSpacing="2px">
+                <Text w="60%" textAlign="center" fontSize={{ base: "18px", sm: "10px", md: "14px", lg: "18px" }} lineHeight="30px" letterSpacing="2px">
                     Our products are crafted exclusively from the dreams and screams of young kids who wanted to show their mastery in their chosen fields, but were directed towards a factory for daily wages. Each cracker bursts brighter than their lost smiles, and can be heard louder than their cries for miles. Buy them, burst them, brag about them.
                 </Text>
                 <Box pt="60px">
