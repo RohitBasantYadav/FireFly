@@ -16,7 +16,7 @@ const Banner = () => {
         <Image src={bannerImg} alt="banner-img" w="100%" height="95vh" objectFit="fill" />
         {/* Text and Button section on Banner */}
         <Box position="absolute" top="30%" left="5%">
-          <Heading color="white" w="50%" fontSize={{ sm: "20px", md: "40px", lg: "55px", xl: "55px" }}>The choice is yours.  Because they don’t have one.</Heading>
+          <Heading color="white" w="50%" fontSize="55px">The choice is yours.  Because they don’t have one.</Heading>
           <Button onClick={onOpen} _hover={{ bgColor: "rgba(255,255,255,0.8)" }} cursor="pointer" py={15} px={45} border="none" color="#FE0000" fontWeight="bold">QUICK VIEW</Button>
         </Box>
       </Box>
